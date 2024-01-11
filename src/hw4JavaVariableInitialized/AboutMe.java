@@ -4,7 +4,7 @@ public class AboutMe {
 
 	public String name;// variable declared
 	public int homePrice;
-	public byte downPaymentPersentage;
+	public byte downPaymentPercentage;
 	public byte loanTerm;
 	public short homeInsurance;
 	public long validation;
@@ -21,7 +21,7 @@ public class AboutMe {
 	// method implemented
 	public void aboutMe() {
 		System.out.println("AboutMe" + name + " homeprice:" + homePrice + ",downPaymentPersentage:"
-				+ downPaymentPersentage + ",loanTerm:" + loanTerm + ",homeInsurance:" + homeInsurance + "\n validation:"
+				+ downPaymentPercentage + ",loanTerm:" + loanTerm + ",homeInsurance:" + homeInsurance + "\n validation:"
 				+ validation + ",\ninterestRate" + interestRate + ",propertyTaxes:" + propertyTaxes + ",quality:"
 				+ quality + " and parking:" + parking);
 	}
