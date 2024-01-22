@@ -1,6 +1,10 @@
 package hw10Abstraction;
 
-public class ColumbiaUniversity {
+// A regular class
+// regular class can inherit only one ( regular class or one abstract class) by extends keyword
+// A regular class can't inherit an Interface or another abstract and regular class by extend keyword
+
+public class ColumbiaUniversity extends MedicalSchool {
 	
 		public void chemistry() {
 		
